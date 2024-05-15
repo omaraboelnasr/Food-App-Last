@@ -21,7 +21,7 @@ import RecipeUpdate from "./modules/RecipesModule/components/recipeUpdate/Recipe
 import VerificationCode from "./modules/AuthenticationModule/components/verificationCode/verificationCode"
 import FavoriteList from "./modules/FavoriteModule/components/favoriteList/FavoriteList"
 function App() {
-  let routes = createBrowserRouter([
+  let routes = createHashRouter([
     {
       path:'dashboard',
       element:<ProtectedRoute>

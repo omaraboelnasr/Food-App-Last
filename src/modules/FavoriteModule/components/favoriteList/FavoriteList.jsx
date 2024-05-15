@@ -60,6 +60,7 @@ const FavoriteList = () => {
                                     <img src={`https://upskilling-egypt.com:3006/${item.recipe?.imagePath}`} className="card-img-top" alt="..." height='250px' />
                                     </div>
                                     <div className="card-body">
+                                        <h1>hey</h1>
                                         <h5 className="card-title">{item.recipe.name}</h5>
                                         <p className="card-text">{item.recipe.description}</p>
                                         <p className="card-text">{item.recipe.price} $</p>

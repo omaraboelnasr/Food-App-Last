@@ -6,6 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useContext, useState } from 'react';
 import { ToastContext } from '../../../../context/ToastContext';
+import { AuthContext } from '../../../../context/AuthContext';
 
 const Register = () => {
     const {getToastValue}=useContext(ToastContext)
